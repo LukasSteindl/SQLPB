@@ -14,4 +14,4 @@ declare @logfilepath varchar(128)
 
 exec [StpandWaitTrace] '00:00:05', 'ScenarioName', @db_id,@logfilepath
 
-![alt text](http://url/to/img.pnghttps://github.com/LukasSteindl/SQLPB/blob/master/Demo.png)
+![alt text](https://github.com/LukasSteindl/SQLPB/blob/master/Demo.png)
