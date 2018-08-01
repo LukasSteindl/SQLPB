@@ -1,7 +1,10 @@
 # SQLPB
 
 
-With this Tool you can start a SQL Server Extended Event Trace and Parse the Output to into several correlated tables.
+With this Tool you can start a SQL Server Extended Event Trace and Parse the Output to into several correlated tables. Then you can use the Power BI Dashboard with R Components to create a histographic Baseline.
+
+![alt text](https://github.com/LukasSteindl/SQLPB/blob/master/Demo.png)
+
 
 Example Call: 
 
@@ -14,4 +17,3 @@ declare @logfilepath varchar(128)
 
 exec [StpandWaitTrace] '00:00:05', 'ScenarioName', @db_id,@logfilepath
 
-![alt text](https://github.com/LukasSteindl/SQLPB/blob/master/Demo.png)
